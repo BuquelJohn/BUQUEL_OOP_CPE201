@@ -253,7 +253,7 @@
             // newBtn
             // 
             newBtn.BackColor = Color.Orange;
-            newBtn.ForeColor = SystemColors.ActiveCaptionText;
+            newBtn.ForeColor = SystemColors.ActiveCaption;
             newBtn.Location = new Point(515, 454);
             newBtn.Name = "newBtn";
             newBtn.Size = new Size(95, 32);
@@ -293,7 +293,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(790, 511);
+            ClientSize = new Size(783, 493);
             Controls.Add(priceTxtbox);
             Controls.Add(ItemnameTxtbox);
             Controls.Add(exitBtn);
