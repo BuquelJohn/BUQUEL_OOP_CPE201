@@ -19,7 +19,7 @@ namespace REAL_NA_TOH
 
         private void label1_Click(object sender, EventArgs e)
         {
-
+            //hii
         }
 
         private void label2_Click(object sender, EventArgs e)
