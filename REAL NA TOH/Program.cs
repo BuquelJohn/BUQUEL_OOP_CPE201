@@ -1,3 +1,6 @@
+using Lesson_2_Activity;
+using LESSON1;
+
 namespace REAL_NA_TOH
 {
     internal static class Program
@@ -11,7 +14,7 @@ namespace REAL_NA_TOH
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Act2());
+            Application.Run(new Activity2());
         }
-    }
+   }
 }

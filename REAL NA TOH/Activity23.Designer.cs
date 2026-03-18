@@ -1,6 +1,6 @@
 ﻿namespace REAL_NA_TOH
 {
-    partial class Act2
+    partial class Activity2
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Act2));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Activity2));
             label1 = new Label();
             label2 = new Label();
             backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
@@ -162,7 +162,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Arial", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.ForeColor = Color.White;
+            label2.ForeColor = Color.LightCoral;
             label2.Location = new Point(23, 54);
             label2.Name = "label2";
             label2.Size = new Size(144, 17);
@@ -765,7 +765,7 @@
             // 
             // button4
             // 
-            button4.BackColor = Color.Brown;
+            button4.BackColor = Color.DarkRed;
             button4.ForeColor = Color.WhiteSmoke;
             button4.Location = new Point(324, 152);
             button4.Name = "button4";
@@ -777,7 +777,7 @@
             // 
             // button3
             // 
-            button3.BackColor = Color.Brown;
+            button3.BackColor = Color.DarkRed;
             button3.ForeColor = Color.WhiteSmoke;
             button3.Location = new Point(324, 118);
             button3.Name = "button3";
@@ -788,7 +788,7 @@
             // 
             // button2
             // 
-            button2.BackColor = Color.Brown;
+            button2.BackColor = Color.DarkRed;
             button2.ForeColor = Color.WhiteSmoke;
             button2.Location = new Point(324, 83);
             button2.Name = "button2";
@@ -819,7 +819,7 @@
             // 
             // button1
             // 
-            button1.BackColor = Color.Brown;
+            button1.BackColor = Color.DarkRed;
             button1.ForeColor = Color.WhiteSmoke;
             button1.Location = new Point(324, 49);
             button1.Name = "button1";
@@ -1197,7 +1197,7 @@
             button19.Text = "1";
             button19.UseVisualStyleBackColor = false;
             // 
-            // Act2
+            // Activity2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -1225,7 +1225,7 @@
             Controls.Add(groupBox1);
             Controls.Add(label2);
             Controls.Add(label1);
-            Name = "Act2";
+            Name = "Activity2";
             Text = " ";
             Load += Act2_Load;
             groupBox1.ResumeLayout(false);

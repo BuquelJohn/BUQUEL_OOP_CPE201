@@ -1,6 +1,6 @@
 ﻿namespace REAL_NA_TOH
 {
-    partial class Form1
+    partial class Activity1
     {
         /// <summary>
         ///  Required designer variable.
@@ -253,7 +253,7 @@
             // newBtn
             // 
             newBtn.BackColor = Color.Orange;
-            newBtn.ForeColor = SystemColors.ActiveCaption;
+            newBtn.ForeColor = SystemColors.ButtonHighlight;
             newBtn.Location = new Point(515, 454);
             newBtn.Name = "newBtn";
             newBtn.Size = new Size(95, 32);
@@ -289,7 +289,7 @@
             priceTxtbox.TabIndex = 20;
             priceTxtbox.TextChanged += priceTxtbox_TextChanged;
             // 
-            // Form1
+            // Activity1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -315,8 +315,9 @@
             Controls.Add(pictureBox3);
             Controls.Add(pictureBox2);
             Controls.Add(pictureBox1);
-            Name = "Form1";
+            Name = "Activity1";
             Text = "Form1";
+            Load += Activity1_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();

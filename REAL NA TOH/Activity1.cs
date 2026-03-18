@@ -1,8 +1,8 @@
 namespace REAL_NA_TOH
 {
-    public partial class Form1 : Form
+    public partial class Activity1 : Form
     {
-        public Form1()
+        public Activity1()
         {
             InitializeComponent();
         }
@@ -119,6 +119,11 @@ namespace REAL_NA_TOH
         }
 
         private void priceTxtbox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Activity1_Load(object sender, EventArgs e)
         {
 
         }

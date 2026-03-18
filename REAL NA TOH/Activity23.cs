@@ -11,14 +11,14 @@ using System.Windows.Forms;
 
 namespace REAL_NA_TOH
 {
-    public partial class Act2 : Form
+    public partial class Activity2 : Form
     {
         private double total_amount = 0;
         private int qty_total = 0;
         private double discount_totalgiven = 0;
         private double discounted_total = 0;
 
-        public Act2()
+        public Activity2()
         {
             InitializeComponent();
         }
@@ -75,23 +75,33 @@ namespace REAL_NA_TOH
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int qty;
-            double discount_amt, discounted_amt, cash_rendered, change;
-            qty = Convert.ToInt32(quantitytxtbox.Text);
-            discount_amt = Convert.ToDouble(discounttxtbox.Text);
-            discounted_amt = Convert.ToDouble(discountedtxtbox.Text);
-            cash_rendered = Convert.ToDouble(cashre_renderedtxtbox.Text);
+            try
+            {
+                int qty;
+                double discount_amt, discounted_amt, cash_rendered, change;
+                qty = Convert.ToInt32(quantitytxtbox.Text);
+                discount_amt = Convert.ToDouble(discounttxtbox.Text);
+                discounted_amt = Convert.ToDouble(discountedtxtbox.Text);
+                cash_rendered = Convert.ToDouble(cashre_renderedtxtbox.Text);
 
-            qty_total += qty;
-            discount_totalgiven += discount_amt;
-            discounted_total += discounted_amt;
-            change = cash_rendered - discounted_amt;
+                qty_total += qty;
+                discount_totalgiven += discount_amt;
+                discounted_total += discounted_amt;
+                change = cash_rendered - discounted_amt;
 
-            quantity_totaltxtbox.Text = qty_total.ToString();
-            discount_totaltxtbox.Text = discount_totalgiven.ToString("n");
-            discounted_totaltxtbox.Text = discounted_total.ToString("n");
-            changetxtbox.Text = change.ToString("n");
-            cashre_renderedtxtbox.Text = cash_rendered.ToString("n");
+                quantity_totaltxtbox.Text = qty_total.ToString();
+                discount_totaltxtbox.Text = discount_totalgiven.ToString("n");
+                discounted_totaltxtbox.Text = discounted_total.ToString("n");
+                changetxtbox.Text = change.ToString("n");
+                cashre_renderedtxtbox.Text = cash_rendered.ToString("n");
+            }
+            catch (Exception ex) 
+            {
+                MessageBox.Show("Make sure cash given textbos is not empty invalid");
+                cashre_renderedtxtbox.Clear();
+                cashre_renderedtxtbox.Focus();
+            }
+
         }
 
         private void label17_Click(object sender, EventArgs e)
@@ -182,80 +192,116 @@ namespace REAL_NA_TOH
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
-            //Declaration of variables within a method of an object
-            int qty;
-            double price, discount_amt, discounted_amt;
+            try
+            {
+                //Declaration of variables within a method of an object
+                int qty;
+                double price, discount_amt, discounted_amt;
 
-            qty = Convert.ToInt32(quantitytxtbox.Text);
-            price = Convert.ToDouble(pricetextbox.Text);
+                qty = Convert.ToInt32(quantitytxtbox.Text);
+                price = Convert.ToDouble(pricetextbox.Text);
 
-            discount_amt = (qty * price) * 0.30;
-            discounted_amt = (qty * price) - discount_amt;
+                discount_amt = (qty * price) * 0.30;
+                discounted_amt = (qty * price) - discount_amt;
 
-            discounttxtbox.Text = discount_amt.ToString("n");
-            discountedtxtbox.Text = discounted_amt.ToString("n");
+                discounttxtbox.Text = discount_amt.ToString("n");
+                discountedtxtbox.Text = discounted_amt.ToString("n");
 
-            regularRbtn.Checked = false;
-            EmployeeRdbtn.Checked = false;
-            noTaxRdbtn.Checked = false;
+                regularRbtn.Checked = false;
+                EmployeeRdbtn.Checked = false;
+                noTaxRdbtn.Checked = false;
+            }
+            catch (Exception) 
+            {
+                MessageBox.Show("input is invalid");
+                quantitytxtbox.Clear();
+                quantitytxtbox.Focus();
+            }
 
         }
 
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
-            int qty;
-            double price, discount_amt, discounted_amt;
+            try
+            {
+                int qty;
+                double price, discount_amt, discounted_amt;
 
-            qty = Convert.ToInt32(quantitytxtbox.Text);
-            price = Convert.ToDouble(pricetextbox.Text);
+                qty = Convert.ToInt32(quantitytxtbox.Text);
+                price = Convert.ToDouble(pricetextbox.Text);
 
-            discount_amt = (qty * price) * 0.10;
-            discounted_amt = (qty * price) - discount_amt;
+                discount_amt = (qty * price) * 0.10;
+                discounted_amt = (qty * price) - discount_amt;
 
-            discounttxtbox.Text = discount_amt.ToString("n");
-            discountedtxtbox.Text = discounted_amt.ToString("n");
+                discounttxtbox.Text = discount_amt.ToString("n");
+                discountedtxtbox.Text = discounted_amt.ToString("n");
 
-            radioButton1.Checked = false;
-            EmployeeRdbtn.Checked = false;
-            noTaxRdbtn.Checked = false;
+                radioButton1.Checked = false;
+                EmployeeRdbtn.Checked = false;
+                noTaxRdbtn.Checked = false;
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("input is invalid");
+                quantitytxtbox.Clear();
+                quantitytxtbox.Focus();
+            }
         }
 
         private void radioButton3_CheckedChanged(object sender, EventArgs e)
         {
-            int qty;
-            double price, discount_amt, discounted_amt;
+            try
+            {
+                int qty;
+                double price, discount_amt, discounted_amt;
 
-            qty = Convert.ToInt32(quantitytxtbox.Text);
-            price = Convert.ToDouble(pricetextbox.Text);
+                qty = Convert.ToInt32(quantitytxtbox.Text);
+                price = Convert.ToDouble(pricetextbox.Text);
 
-            discount_amt = (qty * price) * 0.15;
-            discounted_amt = (qty * price) - discount_amt;
+                discount_amt = (qty * price) * 0.15;
+                discounted_amt = (qty * price) - discount_amt;
 
-            discounttxtbox.Text = discount_amt.ToString("n");
-            discountedtxtbox.Text = discounted_amt.ToString("n");
+                discounttxtbox.Text = discount_amt.ToString("n");
+                discountedtxtbox.Text = discounted_amt.ToString("n");
 
-            radioButton1.Checked = false;
-            regularRbtn.Checked = false;
-            noTaxRdbtn.Checked = false;
+                radioButton1.Checked = false;
+                regularRbtn.Checked = false;
+                noTaxRdbtn.Checked = false;
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("invalid data input in quantity");
+                quantitytxtbox.Clear();
+                quantitytxtbox.Focus();
+            }
         }
 
         private void radioButton4_CheckedChanged(object sender, EventArgs e)
         {
-            int qty;
-            double price, discount_amt, discounted_amt;
+            try
+            {
+                int qty;
+                double price, discount_amt, discounted_amt;
 
-            qty = Convert.ToInt32(quantitytxtbox.Text);
-            price = Convert.ToDouble(pricetextbox.Text);
+                qty = Convert.ToInt32(quantitytxtbox.Text);
+                price = Convert.ToDouble(pricetextbox.Text);
 
-            discount_amt = (qty * price) * 0;
-            discounted_amt = (qty * price) - discount_amt;
+                discount_amt = (qty * price) * 0;
+                discounted_amt = (qty * price) - discount_amt;
 
-            discounttxtbox.Text = discount_amt.ToString("n");
-            discountedtxtbox.Text = discounted_amt.ToString("n");
+                discounttxtbox.Text = discount_amt.ToString("n");
+                discountedtxtbox.Text = discounted_amt.ToString("n");
 
-            radioButton1.Checked = false;
-            regularRbtn.Checked = false;
-            EmployeeRdbtn.Checked = false;
+                radioButton1.Checked = false;
+                regularRbtn.Checked = false;
+                EmployeeRdbtn.Checked = false;
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("invalid data input in quantity");
+                quantitytxtbox.Clear();
+                quantitytxtbox.Focus();
+            }
         }
 
         private void button4_Click(object sender, EventArgs e)
