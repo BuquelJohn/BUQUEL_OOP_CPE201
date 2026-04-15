@@ -11,14 +11,14 @@ using System.Windows.Forms;
 
 namespace REAL_NA_TOH
 {
-    public partial class Activity2 : Form
+    public partial class Activity_3 : Form
     {
         private double total_amount = 0;
         private int qty_total = 0;
         private double discount_totalgiven = 0;
         private double discounted_total = 0;
 
-        public Activity2()
+        public Activity_3()
         {
             InitializeComponent();
         }
@@ -95,7 +95,7 @@ namespace REAL_NA_TOH
                 changetxtbox.Text = change.ToString("n");
                 cashre_renderedtxtbox.Text = cash_rendered.ToString("n");
             }
-            catch (Exception ex) 
+            catch (Exception)
             {
                 MessageBox.Show("Make sure cash given textbos is not empty invalid");
                 cashre_renderedtxtbox.Clear();
@@ -211,7 +211,7 @@ namespace REAL_NA_TOH
                 EmployeeRdbtn.Checked = false;
                 noTaxRdbtn.Checked = false;
             }
-            catch (Exception) 
+            catch (Exception)
             {
                 MessageBox.Show("input is invalid");
                 quantitytxtbox.Clear();

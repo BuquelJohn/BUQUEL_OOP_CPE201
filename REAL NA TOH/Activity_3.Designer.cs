@@ -1,6 +1,6 @@
 ﻿namespace REAL_NA_TOH
 {
-    partial class Activity2
+    partial class Activity_3
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Activity2));
             label1 = new Label();
             label2 = new Label();
             backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
@@ -74,10 +73,6 @@
             pictureBox2 = new PictureBox();
             pictureBox1 = new PictureBox();
             groupBox2 = new GroupBox();
-            noTaxRdbtn = new RadioButton();
-            EmployeeRdbtn = new RadioButton();
-            regularRbtn = new RadioButton();
-            radioButton1 = new RadioButton();
             button4 = new Button();
             button3 = new Button();
             button2 = new Button();
@@ -120,6 +115,10 @@
             button16 = new Button();
             button18 = new Button();
             button19 = new Button();
+            noTaxRdbtn = new RadioButton();
+            EmployeeRdbtn = new RadioButton();
+            regularRbtn = new RadioButton();
+            radioButton1 = new RadioButton();
             groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox16).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox17).BeginInit();
@@ -494,7 +493,7 @@
             // pictureBox11
             // 
             pictureBox11.BorderStyle = BorderStyle.Fixed3D;
-            pictureBox11.Image = (Image)resources.GetObject("pictureBox11.Image");
+            pictureBox11.Image = Properties.Resources.Screenshot_2026_02_04_173107;
             pictureBox11.Location = new Point(548, 369);
             pictureBox11.Name = "pictureBox11";
             pictureBox11.Size = new Size(125, 139);
@@ -578,7 +577,7 @@
             // pictureBox8
             // 
             pictureBox8.BorderStyle = BorderStyle.Fixed3D;
-            pictureBox8.Image = (Image)resources.GetObject("pictureBox8.Image");
+            pictureBox8.Image = Properties.Resources.Screenshot_2026_02_04_165548;
             pictureBox8.Location = new Point(155, 204);
             pictureBox8.Name = "pictureBox8";
             pictureBox8.Size = new Size(125, 139);
@@ -590,7 +589,7 @@
             // pictureBox9
             // 
             pictureBox9.BorderStyle = BorderStyle.Fixed3D;
-            pictureBox9.Image = (Image)resources.GetObject("pictureBox9.Image");
+            pictureBox9.Image = Properties.Resources.Screenshot_2026_02_04_173546;
             pictureBox9.Location = new Point(286, 204);
             pictureBox9.Name = "pictureBox9";
             pictureBox9.Size = new Size(125, 139);
@@ -710,58 +709,6 @@
             groupBox2.Size = new Size(477, 200);
             groupBox2.TabIndex = 4;
             groupBox2.TabStop = false;
-            // 
-            // noTaxRdbtn
-            // 
-            noTaxRdbtn.AutoSize = true;
-            noTaxRdbtn.ForeColor = Color.White;
-            noTaxRdbtn.Location = new Point(215, 153);
-            noTaxRdbtn.Name = "noTaxRdbtn";
-            noTaxRdbtn.Size = new Size(90, 19);
-            noTaxRdbtn.TabIndex = 21;
-            noTaxRdbtn.TabStop = true;
-            noTaxRdbtn.Text = "No discount";
-            noTaxRdbtn.UseVisualStyleBackColor = true;
-            noTaxRdbtn.CheckedChanged += radioButton4_CheckedChanged;
-            // 
-            // EmployeeRdbtn
-            // 
-            EmployeeRdbtn.AutoSize = true;
-            EmployeeRdbtn.ForeColor = Color.White;
-            EmployeeRdbtn.Location = new Point(215, 119);
-            EmployeeRdbtn.Name = "EmployeeRdbtn";
-            EmployeeRdbtn.Size = new Size(105, 19);
-            EmployeeRdbtn.TabIndex = 20;
-            EmployeeRdbtn.TabStop = true;
-            EmployeeRdbtn.Text = "Employee Disc.";
-            EmployeeRdbtn.UseVisualStyleBackColor = true;
-            EmployeeRdbtn.CheckedChanged += radioButton3_CheckedChanged;
-            // 
-            // regularRbtn
-            // 
-            regularRbtn.AutoSize = true;
-            regularRbtn.ForeColor = Color.White;
-            regularRbtn.Location = new Point(215, 88);
-            regularRbtn.Name = "regularRbtn";
-            regularRbtn.Size = new Size(103, 19);
-            regularRbtn.TabIndex = 19;
-            regularRbtn.TabStop = true;
-            regularRbtn.Text = "With Disc Card";
-            regularRbtn.UseVisualStyleBackColor = true;
-            regularRbtn.CheckedChanged += radioButton2_CheckedChanged;
-            // 
-            // radioButton1
-            // 
-            radioButton1.AutoSize = true;
-            radioButton1.ForeColor = Color.White;
-            radioButton1.Location = new Point(215, 55);
-            radioButton1.Name = "radioButton1";
-            radioButton1.Size = new Size(97, 19);
-            radioButton1.TabIndex = 18;
-            radioButton1.TabStop = true;
-            radioButton1.Text = "Senior Citizen";
-            radioButton1.UseVisualStyleBackColor = true;
-            radioButton1.CheckedChanged += radioButton1_CheckedChanged;
             // 
             // button4
             // 
@@ -1197,7 +1144,59 @@
             button19.Text = "1";
             button19.UseVisualStyleBackColor = false;
             // 
-            // Activity2
+            // noTaxRdbtn
+            // 
+            noTaxRdbtn.AutoSize = true;
+            noTaxRdbtn.ForeColor = Color.White;
+            noTaxRdbtn.Location = new Point(215, 153);
+            noTaxRdbtn.Name = "noTaxRdbtn";
+            noTaxRdbtn.Size = new Size(90, 19);
+            noTaxRdbtn.TabIndex = 21;
+            noTaxRdbtn.TabStop = true;
+            noTaxRdbtn.Text = "No discount";
+            noTaxRdbtn.UseVisualStyleBackColor = true;
+            noTaxRdbtn.CheckedChanged += radioButton4_CheckedChanged;
+            // 
+            // EmployeeRdbtn
+            // 
+            EmployeeRdbtn.AutoSize = true;
+            EmployeeRdbtn.ForeColor = Color.White;
+            EmployeeRdbtn.Location = new Point(215, 119);
+            EmployeeRdbtn.Name = "EmployeeRdbtn";
+            EmployeeRdbtn.Size = new Size(105, 19);
+            EmployeeRdbtn.TabIndex = 20;
+            EmployeeRdbtn.TabStop = true;
+            EmployeeRdbtn.Text = "Employee Disc.";
+            EmployeeRdbtn.UseVisualStyleBackColor = true;
+            EmployeeRdbtn.CheckedChanged += radioButton3_CheckedChanged;
+            // 
+            // regularRbtn
+            // 
+            regularRbtn.AutoSize = true;
+            regularRbtn.ForeColor = Color.White;
+            regularRbtn.Location = new Point(215, 88);
+            regularRbtn.Name = "regularRbtn";
+            regularRbtn.Size = new Size(103, 19);
+            regularRbtn.TabIndex = 19;
+            regularRbtn.TabStop = true;
+            regularRbtn.Text = "With Disc Card";
+            regularRbtn.UseVisualStyleBackColor = true;
+            regularRbtn.CheckedChanged += radioButton2_CheckedChanged;
+            // 
+            // radioButton1
+            // 
+            radioButton1.AutoSize = true;
+            radioButton1.ForeColor = Color.White;
+            radioButton1.Location = new Point(215, 55);
+            radioButton1.Name = "radioButton1";
+            radioButton1.Size = new Size(97, 19);
+            radioButton1.TabIndex = 18;
+            radioButton1.TabStop = true;
+            radioButton1.Text = "Senior Citizen";
+            radioButton1.UseVisualStyleBackColor = true;
+            radioButton1.CheckedChanged += radioButton1_CheckedChanged;
+            // 
+            // Activity_2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -1225,7 +1224,7 @@
             Controls.Add(groupBox1);
             Controls.Add(label2);
             Controls.Add(label1);
-            Name = "Activity2";
+            Name = "Activity_2";
             Text = " ";
             Load += Act2_Load;
             groupBox1.ResumeLayout(false);
@@ -1349,10 +1348,10 @@
         private Label name8lbl;
         private Label name10lbl;
         private Label name7lbl;
-        private RadioButton radioButton1;
+        private TextBox quantity_totaltxtbox;
         private RadioButton noTaxRdbtn;
         private RadioButton EmployeeRdbtn;
         private RadioButton regularRbtn;
-        private TextBox quantity_totaltxtbox;
+        private RadioButton radioButton1;
     }
 }

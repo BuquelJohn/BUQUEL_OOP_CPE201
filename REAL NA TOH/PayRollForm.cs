@@ -405,27 +405,27 @@ namespace LESSON1
                 else if (grossincome > 10416.67 && grossincome <= 16666.67)
                 {
                     tax = ((((grossincome * 24) - 250000) * 0.20) / 24);
-                    tax_contribTxtbox.Text = tax.ToString("n");
+                    tax_contribTxtbox.Text = Convert.ToString("0");
                 }
                 else if (grossincome > 16666.67 && grossincome <= 33333.33)
                 {
                     tax = ((((grossincome * 24) - 400000) * 0.25) + 30000) / 24;
-                    tax_contribTxtbox.Text = tax.ToString("n");
+                    tax_contribTxtbox.Text = Convert.ToString("0");
                 }
                 else if (grossincome > 33333.33 && grossincome <= 83333.33)
                 {
                     tax = ((((grossincome * 24) - 800000) * 0.30) + 130000) / 24;
-                    tax_contribTxtbox.Text = tax.ToString("n");
+                    tax_contribTxtbox.Text = Convert.ToString("0");
                 }
                 else if (grossincome > 83333.33 && grossincome <= 333333.33)
                 {
                     tax = ((((grossincome * 24) - 2000000) * 0.32) + 490000) / 24;
-                    tax_contribTxtbox.Text = tax.ToString("n");
+                    tax_contribTxtbox.Text = Convert.ToString("0");
                 }
                 else
                 {
                     tax = ((((grossincome * 24) - 8000000) * 0.35) + 2410000) / 24;
-                    tax_contribTxtbox.Text = tax.ToString("n");
+                    tax_contribTxtbox.Text = Convert.ToString("0");
                 }
             }
             catch (Exception)

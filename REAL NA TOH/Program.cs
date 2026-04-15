@@ -14,7 +14,7 @@ namespace REAL_NA_TOH
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Activity2());
+            Application.Run(new Example7looping());
         }
    }
 }
