@@ -1,6 +1,6 @@
 ﻿namespace REAL_NA_TOH
 {
-    partial class Example7looping
+    partial class MENUSTRIP
     {
         /// <summary>
         /// Required designer variable.
@@ -48,67 +48,73 @@
             // 
             // menuStrip1
             // 
-            menuStrip1.Location = new Point(0, 24);
+            menuStrip1.ImageScalingSize = new Size(20, 20);
+            menuStrip1.Location = new Point(0, 30);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(800, 24);
+            menuStrip1.Padding = new Padding(7, 3, 0, 3);
+            menuStrip1.Size = new Size(914, 30);
             menuStrip1.TabIndex = 0;
             menuStrip1.Text = "menuStrip1";
+            //menuStrip1.ItemClicked += this.menuStrip1_ItemClicked;
             // 
             // menuStrip2
             // 
+            menuStrip2.ImageScalingSize = new Size(20, 20);
             menuStrip2.Items.AddRange(new ToolStripItem[] { pRELIMToolStripMenuItem, mIDTERMToolStripMenuItem, fINALSToolStripMenuItem });
             menuStrip2.Location = new Point(0, 0);
             menuStrip2.Name = "menuStrip2";
-            menuStrip2.Size = new Size(800, 24);
+            menuStrip2.Padding = new Padding(7, 3, 0, 3);
+            menuStrip2.Size = new Size(914, 30);
             menuStrip2.TabIndex = 1;
             menuStrip2.Text = "menuStrip2";
+           // menuStrip2.ItemClicked += this.menuStrip2_ItemClicked;
             // 
             // pRELIMToolStripMenuItem
             // 
             pRELIMToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { activity1ToolStripMenuItem, activity2ToolStripMenuItem, activity3ToolStripMenuItem, activity4ToolStripMenuItem, activity5ToolStripMenuItem, activityToolStripMenuItem });
             pRELIMToolStripMenuItem.Name = "pRELIMToolStripMenuItem";
-            pRELIMToolStripMenuItem.Size = new Size(59, 20);
+            pRELIMToolStripMenuItem.Size = new Size(72, 24);
             pRELIMToolStripMenuItem.Text = "PRELIM";
             // 
             // activity1ToolStripMenuItem
             // 
             activity1ToolStripMenuItem.Name = "activity1ToolStripMenuItem";
-            activity1ToolStripMenuItem.Size = new Size(118, 22);
+            activity1ToolStripMenuItem.Size = new Size(147, 26);
             activity1ToolStripMenuItem.Text = "activity1";
             activity1ToolStripMenuItem.Click += activity1ToolStripMenuItem_Click;
             // 
             // activity2ToolStripMenuItem
             // 
             activity2ToolStripMenuItem.Name = "activity2ToolStripMenuItem";
-            activity2ToolStripMenuItem.Size = new Size(118, 22);
+            activity2ToolStripMenuItem.Size = new Size(147, 26);
             activity2ToolStripMenuItem.Text = "activity2";
             activity2ToolStripMenuItem.Click += activity2ToolStripMenuItem_Click;
             // 
             // activity3ToolStripMenuItem
             // 
             activity3ToolStripMenuItem.Name = "activity3ToolStripMenuItem";
-            activity3ToolStripMenuItem.Size = new Size(118, 22);
+            activity3ToolStripMenuItem.Size = new Size(147, 26);
             activity3ToolStripMenuItem.Text = "activity3";
             activity3ToolStripMenuItem.Click += activity3ToolStripMenuItem_Click;
             // 
             // activity4ToolStripMenuItem
             // 
             activity4ToolStripMenuItem.Name = "activity4ToolStripMenuItem";
-            activity4ToolStripMenuItem.Size = new Size(118, 22);
+            activity4ToolStripMenuItem.Size = new Size(147, 26);
             activity4ToolStripMenuItem.Text = "activity4";
             activity4ToolStripMenuItem.Click += activity4ToolStripMenuItem_Click;
             // 
             // activity5ToolStripMenuItem
             // 
             activity5ToolStripMenuItem.Name = "activity5ToolStripMenuItem";
-            activity5ToolStripMenuItem.Size = new Size(118, 22);
+            activity5ToolStripMenuItem.Size = new Size(147, 26);
             activity5ToolStripMenuItem.Text = "activity5";
             activity5ToolStripMenuItem.Click += activity5ToolStripMenuItem_Click;
             // 
             // activityToolStripMenuItem
             // 
             activityToolStripMenuItem.Name = "activityToolStripMenuItem";
-            activityToolStripMenuItem.Size = new Size(118, 22);
+            activityToolStripMenuItem.Size = new Size(147, 26);
             activityToolStripMenuItem.Text = "activity6";
             activityToolStripMenuItem.Click += activityToolStripMenuItem_Click;
             // 
@@ -116,53 +122,54 @@
             // 
             mIDTERMToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { activity4ToolStripMenuItem1, activity5ToolStripMenuItem1, activity6ToolStripMenuItem, activity4ToolStripMenuItem2 });
             mIDTERMToolStripMenuItem.Name = "mIDTERMToolStripMenuItem";
-            mIDTERMToolStripMenuItem.Size = new Size(71, 20);
+            mIDTERMToolStripMenuItem.Size = new Size(88, 24);
             mIDTERMToolStripMenuItem.Text = "MIDTERM";
             // 
             // activity4ToolStripMenuItem1
             // 
             activity4ToolStripMenuItem1.Name = "activity4ToolStripMenuItem1";
-            activity4ToolStripMenuItem1.Size = new Size(180, 22);
+            activity4ToolStripMenuItem1.Size = new Size(186, 26);
             activity4ToolStripMenuItem1.Text = "activity1";
             activity4ToolStripMenuItem1.Click += activity4ToolStripMenuItem1_Click;
             // 
             // activity5ToolStripMenuItem1
             // 
             activity5ToolStripMenuItem1.Name = "activity5ToolStripMenuItem1";
-            activity5ToolStripMenuItem1.Size = new Size(180, 22);
+            activity5ToolStripMenuItem1.Size = new Size(186, 26);
             activity5ToolStripMenuItem1.Text = "activity2 (ex4)";
             activity5ToolStripMenuItem1.Click += activity5ToolStripMenuItem1_Click;
             // 
             // activity6ToolStripMenuItem
             // 
             activity6ToolStripMenuItem.Name = "activity6ToolStripMenuItem";
-            activity6ToolStripMenuItem.Size = new Size(180, 22);
+            activity6ToolStripMenuItem.Size = new Size(186, 26);
             activity6ToolStripMenuItem.Text = "activity3 (ex5)";
             activity6ToolStripMenuItem.Click += activity6ToolStripMenuItem_Click;
             // 
             // activity4ToolStripMenuItem2
             // 
             activity4ToolStripMenuItem2.Name = "activity4ToolStripMenuItem2";
-            activity4ToolStripMenuItem2.Size = new Size(180, 22);
+            activity4ToolStripMenuItem2.Size = new Size(186, 26);
             activity4ToolStripMenuItem2.Text = "Activity4 (ex6)";
             activity4ToolStripMenuItem2.Click += activity4ToolStripMenuItem2_Click;
             // 
             // fINALSToolStripMenuItem
             // 
             fINALSToolStripMenuItem.Name = "fINALSToolStripMenuItem";
-            fINALSToolStripMenuItem.Size = new Size(57, 20);
+            fINALSToolStripMenuItem.Size = new Size(70, 24);
             fINALSToolStripMenuItem.Text = "FINALS";
             // 
-            // Example7looping
+            // MENUSTRIP
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(914, 600);
             Controls.Add(menuStrip1);
             Controls.Add(menuStrip2);
             IsMdiContainer = true;
             MainMenuStrip = menuStrip1;
-            Name = "Example7looping";
+            Margin = new Padding(3, 4, 3, 4);
+            Name = "MENUSTRIP";
             Text = "Example7looping";
             WindowState = FormWindowState.Maximized;
             Load += Example7looping_Load;

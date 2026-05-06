@@ -33,26 +33,26 @@ namespace Lesson_2_Activity
             TotalQtyTxtbox.Enabled = false;
 
             //Inserting image to picturebox
-            Burger1IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-04.C203-04\\Downloads\\manok ni buquel\\Southern fried.png");
-            Burger2IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-04.C203-04\\Downloads\\manok ni buquel\\Screenshot 2026-02-04 182322.png");
-            Burger3IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-04.C203-04\\Downloads\\manok ni buquel\\Screenshot 2026-02-04 165312.png");
-            Burger4IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-04.C203-04\\Downloads\\manok ni buquel\\Chicken chowmein.png");
-            Burger5IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-04.C203-04\\Downloads\\manok ni buquel\\Fried breast.png");
-            Burger6IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-04.C203-04\\Downloads\\manok ni buquel\\Chicken tinola.png");
-            Burger7IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-04.C203-04\\Downloads\\manok ni buquel\\Screenshot 2026-02-04 172855.png");
-            Burger8IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-04.C203-04\\Downloads\\manok ni buquel\\Screenshot 2026-02-04 172657.png");
-            Burger9IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-04.C203-04\\Downloads\\manok ni buquel\\Screenshot 2026-02-04 172601.png");
-            Burger10IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-04.C203-04\\Downloads\\manok ni buquel\\Screenshot 2026-02-04 172438.png");
-            Burger11IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-04.C203-04\\Downloads\\manok ni buquel\\Screenshot 2026-02-04 172354.png");
-            Burger12IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-04.C203-04\\Downloads\\manok ni buquel\\Screenshot 2026-02-04 172149.png");
-            Burger13IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-04.C203-04\\Downloads\\manok ni buquel\\Screenshot 2026-02-04 171916.png");
-            Burger14IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-04.C203-04\\Downloads\\manok ni buquel\\Screenshot 2026-02-04 171623.png");
-            Burger15IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-04.C203-04\\Downloads\\manok ni buquel\\Screenshot 2026-02-04 171004.png");
-            Burger16IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-04.C203-04\\Downloads\\manok ni buquel\\Screenshot 2026-02-04 170903.png");
-            Burger17IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-04.C203-04\\Downloads\\manok ni buquel\\Screenshot 2026-02-04 165548.png");
-            Burger18IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-04.C203-04\\Downloads\\manok ni buquel\\Screenshot 2026-02-04 165503.png");
-            Burger19IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-04.C203-04\\Downloads\\manok ni buquel\\Screenshot 2026-02-04 165356.png");
-            Burger20IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-04.C203-04\\Downloads\\manok ni buquel\\Fresh chicken.png");
+            //Burger1IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-04.C203-04\\Downloads\\manok ni buquel\\Southern fried.png");
+            //Burger2IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-04.C203-04\\Downloads\\manok ni buquel\\Screenshot 2026-02-04 182322.png");
+            //Burger3IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-04.C203-04\\Downloads\\manok ni buquel\\Screenshot 2026-02-04 165312.png");
+            //Burger4IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-04.C203-04\\Downloads\\manok ni buquel\\Chicken chowmein.png");
+            //Burger5IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-04.C203-04\\Downloads\\manok ni buquel\\Fried breast.png");
+            //Burger6IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-04.C203-04\\Downloads\\manok ni buquel\\Chicken tinola.png");
+            //Burger7IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-04.C203-04\\Downloads\\manok ni buquel\\Screenshot 2026-02-04 172855.png");
+            //Burger8IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-04.C203-04\\Downloads\\manok ni buquel\\Screenshot 2026-02-04 172657.png");
+            //Burger9IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-04.C203-04\\Downloads\\manok ni buquel\\Screenshot 2026-02-04 172601.png");
+            //Burger10IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-04.C203-04\\Downloads\\manok ni buquel\\Screenshot 2026-02-04 172438.png");
+            //Burger11IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-04.C203-04\\Downloads\\manok ni buquel\\Screenshot 2026-02-04 172354.png");
+            //Burger12IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-04.C203-04\\Downloads\\manok ni buquel\\Screenshot 2026-02-04 172149.png");
+            //Burger13IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-04.C203-04\\Downloads\\manok ni buquel\\Screenshot 2026-02-04 171916.png");
+            //Burger14IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-04.C203-04\\Downloads\\manok ni buquel\\Screenshot 2026-02-04 171623.png");
+            //Burger15IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-04.C203-04\\Downloads\\manok ni buquel\\Screenshot 2026-02-04 171004.png");
+            //Burger16IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-04.C203-04\\Downloads\\manok ni buquel\\Screenshot 2026-02-04 170903.png");
+            //Burger17IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-04.C203-04\\Downloads\\manok ni buquel\\Screenshot 2026-02-04 165548.png");
+            //Burger18IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-04.C203-04\\Downloads\\manok ni buquel\\Screenshot 2026-02-04 165503.png");
+            //Burger19IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-04.C203-04\\Downloads\\manok ni buquel\\Screenshot 2026-02-04 165356.png");
+            //Burger20IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-04.C203-04\\Downloads\\manok ni buquel\\Fresh chicken.png");
 
             //disable the checkboxes to prevent user input
             A_BucketfriesBox.Enabled = false;
@@ -193,7 +193,7 @@ namespace Lesson_2_Activity
             FoodBundleB_RB.Checked = false;
 
             // inserting image to picturebox
-            DisplayPicturebox.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-04.C203-04\\Downloads\\manok ni buquel\\Fresh chicken.png");
+            //DisplayPicturebox.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-04.C203-04\\Downloads\\manok ni buquel\\Fresh chicken.png");
 
             // codes to check the checkboxes when food bundle A is selected
             A_BucketfriesBox.Checked = true;

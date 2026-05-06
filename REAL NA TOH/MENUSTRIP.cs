@@ -12,9 +12,9 @@ using System.Windows.Forms;
 
 namespace REAL_NA_TOH
 {
-    public partial class Example7looping : Form
+    public partial class MENUSTRIP : Form
     {
-        public Example7looping()
+        public MENUSTRIP()
         {
             InitializeComponent();
         }
@@ -70,7 +70,7 @@ namespace REAL_NA_TOH
 
         private void activity6ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            example5 example5 = new example5();
+            Lesson7_Ex5 example5 = new Lesson7_Ex5();
             example5.MdiParent = this;
             example5.Show();
         }
@@ -84,7 +84,7 @@ namespace REAL_NA_TOH
 
         private void activity4ToolStripMenuItem2_Click(object sender, EventArgs e)
         {
-            while_loop2 example5 = new while_loop2();
+            Lesson7_Ex6 example5 = new Lesson7_Ex6();
             example5.MdiParent = this;
             example5.Show();
         }

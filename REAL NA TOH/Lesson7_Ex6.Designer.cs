@@ -1,6 +1,6 @@
 ﻿namespace   REAL_NA_TOH
 {
-    partial class while_loop2
+    partial class Lesson7_Ex6
     {
         /// <summary>
         /// Required designer variable.

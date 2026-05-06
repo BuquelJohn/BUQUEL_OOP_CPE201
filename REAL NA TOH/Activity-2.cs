@@ -145,11 +145,11 @@ namespace REAL_NA_TOH
             discounted_totaltxtbox.Enabled = false;
             changetxtbox.Enabled = false;
 
-            pictureBox16.Image = Image.FromFile("C:\\Users\\C203-04.C203-04\\Downloads\\manok ni buquel\\Fresh chicken.png");
-            pictureBox17.Image = Image.FromFile("C:\\Users\\C203-04.C203-04\\Downloads\\manok ni buquel\\Chicken chowmein.png");
-            pictureBox19.Image = Image.FromFile("C:\\Users\\C203-04.C203-04\\Downloads\\manok ni buquel\\Fried breast.png");
-            pictureBox18.Image = Image.FromFile("C:\\Users\\C203-04.C203-04\\Downloads\\manok ni buquel\\Southern fried.png");
-            pictureBox20.Image = Image.FromFile("C:\\Users\\C203-04.C203-04\\Downloads\\manok ni buquel\\Chicken tinola.png");
+            //pictureBox16.Image = Image.FromFile("C:\\Users\\C203-04.C203-04\\Downloads\\manok ni buquel\\Fresh chicken.png");
+            //pictureBox17.Image = Image.FromFile("C:\\Users\\C203-04.C203-04\\Downloads\\manok ni buquel\\Chicken chowmein.png");
+            //pictureBox19.Image = Image.FromFile("C:\\Users\\C203-04.C203-04\\Downloads\\manok ni buquel\\Fried breast.png");
+            //pictureBox18.Image = Image.FromFile("C:\\Users\\C203-04.C203-04\\Downloads\\manok ni buquel\\Southern fried.png");
+            //pictureBox20.Image = Image.FromFile("C:\\Users\\C203-04.C203-04\\Downloads\\manok ni buquel\\Chicken tinola.png");
 
             name1lbl.Text = "Fried chicken";
             name2lbl.Text = "Sweet spicy";

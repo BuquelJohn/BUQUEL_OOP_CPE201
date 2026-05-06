@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace   REAL_NA_TOH
 {
-    public partial class while_loop2 : Form
+    public partial class Lesson7_Ex6 : Form
     {
-        public while_loop2()
+        public Lesson7_Ex6()
         {
             InitializeComponent();
         }
